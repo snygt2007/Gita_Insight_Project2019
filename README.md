@@ -1,5 +1,6 @@
 # Insight_Project_Framework
-Framework for machine learning projects at Insight Data Science.
+Framework followed for the Trademark RADAR search engine for trademark image similarity detection.
+This tool is developed for the USPTO.
 
 ## Motivation for this project format:
 - **Insight_Project_Framework** : Put all source code for production within structured directory
@@ -12,8 +13,8 @@ Framework for machine learning projects at Insight Data Science.
 ## Setup
 Clone repository and update python path
 ```
-repo_name=Insight_Project_Framework # URL of your new repository
-username=mrubash1 # Username for your personal github account
+repo_name=Gita_Insight_Project2019 # URL of your new repository
+username=snygt2007 # Username for your personal github account
 git clone https://github.com/$username/$repo_name
 cd $repo_name
 echo "export $repo_name=${PWD}" >> ~/.bash_profile
