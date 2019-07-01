@@ -1,4 +1,25 @@
 # To install these Python dependencies, please type:
 # pip install -r requirements.txt
 
-streamlit
+keras
+os
+typing
+re
+matplotlib
+pandas
+glob
+math
+numpy
+cv2
+json
+pathlib
+PIL
+time
+argparse
+scipy
+readline
+csv
+pickle
+joblib
+sklearn.cluster
+h5py
