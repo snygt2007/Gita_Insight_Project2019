@@ -46,6 +46,7 @@ git push origin $branch_name
 ## Requisites
 
 - The packages used to build the code is provided in Requirements.txt
+- Please download model from https://tinyurl.com/y2ke7stl in a models folder 
 
 #### Installation
 To install the package above, pleae run:
