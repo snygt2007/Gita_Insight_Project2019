@@ -27,20 +27,6 @@ branch_name=dev-readme_requisites-20180905 # Name of development branch, of the 
 git checkout -b $branch_name
 ```
 
-## Initial Commit
-Lets start with a blank slate: remove `.git` and re initialize the repo
-```
-cd $repo_name
-rm -rf .git   
-git init   
-git status
-```  
-You'll see a list of file, these are files that git doesn't recognize. At this point, feel free to change the directory names to match your project. i.e. change the parent directory Insight_Project_Framework and the project directory Insight_Project_Framework:
-Now commit these:
-```
-git add .
-git commit -m "Initial commit"
-git push origin $branch_name
 ```
 
 ## Requisites
@@ -54,23 +40,10 @@ To install the package above, pleae run:
 pip install -r requiremnts
 ```
 
-## Build Environment
-- Include instructions of how to launch scripts in the build subfolder
-- Build scripts can include shell scripts or python setup.py files
-- The purpose of these scripts is to build a standalone environment, for running the code in this repository
-- The environment can be for local use, or for use in a cloud environment
-- If using for a cloud environment, commands could include CLI tools from a cloud provider (i.e. gsutil from Google Cloud Platform)
-```
-# Example
-
-# Step 1
-# Step 2
-```
 
 ## Configs
-- We recommond using either .yaml or .txt for your config files, not .json
-- **DO NOT STORE CREDENTIALS IN THE CONFIG DIRECTORY!!**
-- If credentials are needed, use environment variables or HashiCorp's [Vault](https://www.vaultproject.io/)
+- A CNN based model is trained with transfer learning technique and the details of the configuration are in Image_supervised_model.py. 
+- The training of model is done using %run -i Image_supervised_model.py. 
 
 
 ## Test
@@ -128,5 +101,12 @@ The replaced layer in the model for emdebbing creation is "dense_3"
 ```
 # Example
 
-Test Results are included in the presentation slide deck for Trademark RADAR
-https://preview.tinyurl.com/yytnrols
+Test Results
+![Input Query Image 1](link-to-image)
+![Trademark RADAR output 1](link-to-image)
+![Input Query Image 2](link-to-image)
+![Trademark RADAR output 2](link-to-image)
+![Input Query Image 3](link-to-image)
+![Trademark RADAR output 3](link-to-image)
+![Input Query Image 4](link-to-image)
+![Trademark RADAR output 4](link-to-image)
