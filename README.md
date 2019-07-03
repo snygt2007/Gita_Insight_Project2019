@@ -99,20 +99,23 @@ The replaced layer in the model for emdebbing creation is "dense_3"
 - Include instructions of how to set up a REST or RPC endpoint
 - This is for running remote inference via a custom model
 ```
-# Example
+# Test Results
 
-Test Results
 ![Input Query Image 1](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/BYD.png)
+
 ![Trademark RADAR output 1](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/byd_results.png)
 
 
 ![Input Query Image 2](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/starpreya.png)
+
 ![Trademark RADAR output 2](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/starpreya_results.png)
 
 
 ![Input Query Image 3](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/CAR_QUERY.png)
+
 ![Trademark RADAR output 3](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/CAR_output.png)
 
 
 ![Input Query Image 4](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/jwelery_logo.png)
+
 ![Trademark RADAR output 4](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/JEWLERY_output.png)
