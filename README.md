@@ -6,7 +6,7 @@ This tool is developed for the USPTO.
 - **Insight_Project_Framework** : Put all source code for production within structured directory
 - **tests** : Put all source code for testing in an easy to find location
 - **configs** : Enable modification of all preset variables within single directory (consisting of one or many config files for separate tasks)
-- **data** : Include example a small amount of data in the Github repository so tests can be run to validate installation
+- **data** : This repository includes a query image and some input logo images that can be used to test the code.
 - **build** : Include scripts that automate building of a standalone environment
 - **static** : Any images or content to include in the README or web framework if part of the pipeline
 
@@ -45,12 +45,7 @@ git push origin $branch_name
 
 ## Requisites
 
-- List all packages and software needed to build the environment
-- This could include cloud command line tools (i.e. gsutil), package managers (i.e. conda), etc.
-
-#### Dependencies
-
-- [Streamlit](streamlit.io)
+- The packages used to build the code is provided in Requirements.txt
 
 #### Installation
 To install the package above, pleae run:
@@ -78,17 +73,38 @@ pip install -r requiremnts
 
 
 ## Test
-- Include instructions for how to run all tests after the software is installed
-```
-# Example
-
+- Instructions for how to run all tests after the software is installed
+```In jupyter notbook, we can pass the commands to run the code in the following manner.
 # Step 1
-# Step 2
-```
+Execute 
+%run -i Raw_data_download.py
+This will download all the raw logo images
 
-## Run Inference
-- Include instructions on how to run inference
-- i.e. image classification on a single image for a CNN deep learning project
+# Step 2
+%run -i Create_resized_data.py
+This will preprocess all the data
+
+# Step 3
+%run -i Create_supervised_data.py
+This will create data for supervised learning
+
+# Step 4
+%run -i Create_supervised_data.py
+This will create data for supervised learning
+# The training step is optional and it needs to be executed on AWS.
+#Step 5
+%run -i Extract_semi_supervised_data.py
+
+
+
+## Run Final Step
+#Step 6
+%run -i Feature_storage.py
+Dependencies:
+./models folder needs to have the already trained model filename_6272019_v1_search.joblib 
+query_fake folder will have the fake logo image (downloaded from internet)
+Empty directory: Data_Features in the data folder
+The replaced layer in the model for emdebbing creation is "dense_3"
 ```
 # Example
 
@@ -97,8 +113,7 @@ pip install -r requiremnts
 ```
 
 ## Build Model
-- Include instructions of how to build the model
-- This can be done either locally or on the cloud
+%run -i Image_supervised_model.py
 ```
 # Example
 
@@ -112,16 +127,4 @@ pip install -r requiremnts
 ```
 # Example
 
-# Step 1
-# Step 2
-```
-
-## Analysis
-- Include some form of EDA (exploratory data analysis)
-- And/or include benchmarking of the model and results
-```
-# Example
-
-# Step 1
-# Step 2
-```
+Test Results are included in the presentation slide deck for Trademark RADAR
