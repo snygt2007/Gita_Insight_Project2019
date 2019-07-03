@@ -80,19 +80,11 @@ query_fake folder will have the fake logo image (downloaded from internet)
 Empty directory: Data_Features in the data folder
 The replaced layer in the model for emdebbing creation is "dense_3"
 ```
-# Example
-
-# Step 1
-# Step 2
 ```
 
 ## Build Model
 %run -i Image_supervised_model.py
 ```
-# Example
-
-# Step 1
-# Step 2
 ```
 
 ## Serve Model
