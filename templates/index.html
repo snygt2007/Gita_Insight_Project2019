@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></head>
+    <body>
+        <div class="container">
+            <h1>USPTO trademark image similarity search engine</h1>
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="query_img"><br>
+                <input type="submit">
+            </form>
+            <h2>Query:</h2>
+            {% if score %}
+            <img src= "{{query_paths}}" width="150px">
+            {% endif %}
+            <h2>Results:</h2>
+            {% if score %}
+            <figure style="float: left; margin-right: 20px; margin-bottom: 20px;">
+                <figcaption>{{score[0]}}</figcaption>
+                <img src="{{image_paths[0]}}" height="150px">
+            </figure>
+             <figure style="float: left; margin-right: 20px; margin-bottom: 20px;">
+                <figcaption>{{score[1]}}</figcaption>
+                <img src="{{image_paths[1]}}" height="150px">
+             </figure>
+             <figure style="float: left; margin-right: 20px; margin-bottom: 20px;">
+                <figcaption>{{score[2]}}</figcaption>
+                <img src="{{image_paths[2]}}" height="150px">
+             </figure>
+            {% endif %}
+        </div>
+    </body>
+</html>
+
+<!--View insipred by https://github.com/matsui528/sis-->
