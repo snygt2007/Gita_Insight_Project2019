@@ -66,8 +66,8 @@ Execute
 - Include instructions of how to set up a REST or RPC endpoint
 - This is for running remote inference via a custom model
 ```
-Select a query image and clck Submit.
-![Search demo](https://github.com/snygt2007/Gita_Insight_Project2019/blob/masterReadme_Images/localhost_5000 - Google Chrome 7_8_2019 6_21_08 PM.png)
+# Inference
+![Select a query image and clck Submit.](https://github.com/snygt2007/Gita_Insight_Project2019/blob/masterReadme_Images/localhost_5000 - Google Chrome 7_8_2019 6_21_08 PM.png)
 
 # Test Results
 
