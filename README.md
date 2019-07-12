@@ -49,36 +49,12 @@ pip install -r requiremnts
 ## Test
 - Instructions for how to run all tests after the software is installed
 ```In jupyter notbook, we can pass the commands to run the code in the following manner.
-# Step 1
+
 Execute 
-%run -i Raw_data_download.py
-This will download all the raw logo images
+%python online_search.py
 
-# Step 2
-%run -i Create_resized_data.py
-This will preprocess all the data
-
-# Step 3
-%run -i Create_supervised_data.py
-This will create data for supervised learning
-
-# Step 4
-%run -i Create_supervised_data.py
-This will create data for supervised learning
-# The training step is optional and it needs to be executed on AWS.
-#Step 5
-%run -i Extract_semi_supervised_data.py
-
-
-
-## Run Final Step
-#Step 6
-%run -i Feature_storage.py
-Dependencies:
-./models folder needs to have the already trained model filename_6272019_v1_search.joblib 
-query_fake folder will have the fake logo image (downloaded from internet)
-Empty directory: Data_Features in the data folder
-The replaced layer in the model for emdebbing creation is "dense_3"
+Select a query image and clck Submit.
+![Search demo](https://github.com/snygt2007/Gita_Insight_Project2019/Readme_Images/localhost_5000 - Google Chrome 7_8_2019 6_21_08PM.png)
 ```
 ```
 
