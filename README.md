@@ -67,7 +67,7 @@ Execute
 - This is for running remote inference via a custom model
 ```
 # Inference
-![Select a query image and clck Submit.](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/localhost_5000 - Google Chrome 7_8_2019 6_21_08 PM.png)
+![Select a query image and clck Submit.](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/data_inference.png)
 
 # Test Results
 
