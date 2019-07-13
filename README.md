@@ -43,22 +43,29 @@ pip install -r requiremnts
 
 ## Configs
 - A CNN based model is trained with transfer learning technique and the details of the configuration are in Image_supervised_model.py. 
-- The training of model is done using %run -i Image_supervised_model.py. 
+
+Execute command to goto the project directory
+%cd backend
+%python online_search.py
+%python Create_resized_data.py
+%python Create_supervised_Data.py
+%
 
 
 ## Test
 - Instructions for how to run all tests after the software is installed
-```In jupyter notbook, we can pass the commands to run the code in the following manner.
 
-Execute 
-%python online_search.py
 
 
 ```
 ```
 
-## Build Model
-%run -i Image_supervised_model.py
+## Downlaod Raw data on local machine
+python download_raw_data.py 
+
+## Preprocess data
+
+
 ```
 ```
 
