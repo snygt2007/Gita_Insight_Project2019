@@ -3,12 +3,11 @@ Framework followed for the Trademark RADAR search engine for trademark image sim
 This tool is developed for the USPTO.
 
 ## Motivation for this project format:
-- **Insight_Project_Framework** : Put all source code for production within structured directory
+- **backend** : Put all source code for production within structured directory. It contains model, data, and code
 - **tests** : Put all source code for testing in an easy to find location
-- **configs** : Enable modification of all preset variables within single directory (consisting of one or many config files for separate tasks)
-- **data** : This repository includes a query image and some input logo images that can be used to test the code.
-- **build** : Include scripts that automate building of a standalone environment
-- **static** : Any images or content to include in the README or web framework if part of the pipeline
+- **static** : Any images or content to include in the web framework
+- **templates** : Flask web page templates
+- **online_search.py** : This maps the web page requests to the backend modules
 
 ## Setup
 Clone repository and update python path
@@ -29,7 +28,7 @@ git checkout -b $branch_name
 
 
 
-## Requisites
+## Prerequisites
 
 - The packages used to build the code is provided in Requirements.txt
 - Please download model from https://tinyurl.com/y2ke7stl in a models folder 
@@ -55,7 +54,7 @@ python online_search.py
 ```
 ```
 
-## Downlaod Raw data on local machine
+## Download Raw data on local machine
 Execute command to goto the project directory
 cd backend
 python download_raw_data.py 
