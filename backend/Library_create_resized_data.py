@@ -19,15 +19,11 @@ import time
 import argparse
 from scipy import ndimage
 from scipy import misc
-get_ipython().run_line_magic('matplotlib', 'inline')
-import readline
-readline.parse_and_bind("tab: complete")
 from scipy import ndimage
 import csv
 
 import os
 import numpy as np
-import argparse
 from keras.models import Model
 from PIL import Image, ImageOps,ImageFilter
 import matplotlib.image as mpimg

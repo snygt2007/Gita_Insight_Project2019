@@ -42,7 +42,7 @@ for layer in base_model.layers:
 
 model.summary()
 model.compile(optimizer=Adam(lr=1e-4), loss='categorical_crossentropy', metrics=['accuracy'])
-y_test_1=np.array(y_test.astype(int64))   
+y_test_1=np.array(y_test.astype(np.int64))
 
 
 
@@ -57,7 +57,7 @@ model.fit((X_train), y_binary_train, shuffle=True, validation_data=((X_val), y_b
 
 
 
-[predict_test_results,y_test_1,y_test,y_predict] = print_predict_convert(X_test,y_test)
+[predict_test_results,y_test_1,y_test,y_predict] = print_predict_convert(X_test,y_test,model)
 
 plot_confusion_mat(y_test_1,y_predict)
 

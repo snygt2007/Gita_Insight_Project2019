@@ -2,6 +2,9 @@ from backend.Library_feature_storage import *
 from keras import backend as K
 from keras.models import load_model
 from joblib import dump, load
+import pickle
+import numpy as np
+
 
 def search_similar_images(fake_query_image_dir, file_name):
     # The functionality of this module is to extract features from large number of classes using the embedding generator
@@ -23,8 +26,8 @@ def search_similar_images(fake_query_image_dir, file_name):
 
     # Load the embedding generator
 
-    df_folder_list = np.load('output_6262019_folder2.npy')
-    df_main_folder_path = np.load('output_6262019_folder_path2.npy')
+    df_folder_list = np.load('./backend/output_6262019_folder2.npy',allow_pickle=True)
+    df_main_folder_path = np.load('./backend/output_6262019_folder_path2.npy',allow_pickle=True)
 
     mod_query_path = Make_Fake_Images_Sharp(fake_query_image_dir, file_name,resized_fake_dir)
 
