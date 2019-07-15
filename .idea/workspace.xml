@@ -10,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -19,6 +19,105 @@
                 <element signature="n#style#0;n#figure#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#figure#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#figure#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Create_supervised_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Raw_data_download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Extract_semi_supervised_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Feature_storage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Library_feature_storage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="230" column="72" selection-start-line="230" selection-start-column="72" selection-end-line="230" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/Library_extract_semi_supervised_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="231" column="22" selection-start-line="231" selection-start-column="22" selection-end-line="231" selection-end-column="22" />
+              <folding>
+                <element signature="e#100#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Image_supervised_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="59" column="92" selection-start-line="59" selection-start-column="92" selection-end-line="59" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Library_image_supervised_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="220" column="4" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Library_create_supervised_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3009">
+              <caret line="211" column="25" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="25" />
+              <folding>
+                <element signature="e#100#112#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,20 +141,31 @@
       <find>predict</find>
       <find>get_fe</find>
       <find>get_fea</find>
+      <find>print_</find>
+      <find>12</find>
+      <find>np.loa</find>
+      <find>y_test_1</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/template_search.html" />
-        <option value="$PROJECT_DIR$/backend/Extract_semi_supervised_data.py" />
         <option value="$PROJECT_DIR$/model_class.py" />
-        <option value="$PROJECT_DIR$/backend/Feature_storage.py" />
         <option value="$PROJECT_DIR$/online_search.py" />
-        <option value="$PROJECT_DIR$/backend/Library_create_supervised_data.py" />
-        <option value="$PROJECT_DIR$/backend/Library_extract_semi_supervised_data.py" />
-        <option value="$PROJECT_DIR$/backend/Library_feature_storage.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/backend/data/download_data.py" />
+        <option value="$PROJECT_DIR$/backend/download_data.py" />
+        <option value="$PROJECT_DIR$/backend/download_raw_data.py" />
+        <option value="$PROJECT_DIR$/backend/Library_create_resized_data.py" />
+        <option value="$PROJECT_DIR$/backend/Library_create_supervised_data.py" />
+        <option value="$PROJECT_DIR$/backend/Raw_data_download.py" />
+        <option value="$PROJECT_DIR$/backend/Image_supervised_model.py" />
+        <option value="$PROJECT_DIR$/backend/Library_image_supervised_model.py" />
+        <option value="$PROJECT_DIR$/backend/Extract_semi_supervised_data.py" />
+        <option value="$PROJECT_DIR$/backend/Feature_storage.py" />
+        <option value="$PROJECT_DIR$/backend/Library_feature_storage.py" />
+        <option value="$PROJECT_DIR$/backend/Library_extract_semi_supervised_data.py" />
       </list>
     </option>
   </component>
@@ -70,34 +180,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="trademark_search_flask_v1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trademark_search_flask_v1" type="462c0819:PsiDirectoryNode" />
+              <item name="trademark_search_flask_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trademark_search_flask_v3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="trademark_search_flask_v1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trademark_search_flask_v1" type="462c0819:PsiDirectoryNode" />
+              <item name="trademark_search_flask_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trademark_search_flask_v3" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="trademark_search_flask_v1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trademark_search_flask_v1" type="462c0819:PsiDirectoryNode" />
+              <item name="trademark_search_flask_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trademark_search_flask_v3" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="trademark_search_flask_v1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trademark_search_flask_v1" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="trademark_search_flask_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trademark_search_flask_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,15 +218,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sanyogita\trademark_search_flask\static\results" />
+      <recent name="C:\Users\Sanyogita\trademark_search_flask\backend" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sanyogita\trademark_search_flask_v2\backend" />
       <recent name="C:\Users\Sanyogita\trademark_search_flask\static" />
       <recent name="C:\Users\Sanyogita\trademark_search_flask" />
       <recent name="C:\Users\Sanyogita\trademark_search_flask\templates" />
       <recent name="C:\Users\Sanyogita\trademark_search_flask\static\uploaded" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sanyogita\trademark_search_flask\static\results" />
-      <recent name="C:\Users\Sanyogita\trademark_search_flask\backend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -130,6 +241,35 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="download_raw_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="trademark_search_flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/download_raw_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.download_raw_data" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -152,21 +292,28 @@
       <workItem from="1562548484460" duration="2838000" />
       <workItem from="1562551640732" duration="1437000" />
       <workItem from="1562565214958" duration="252000" />
+      <workItem from="1562622009719" duration="4000" />
+      <workItem from="1562634014469" duration="2100000" />
+      <workItem from="1562782458149" duration="15000" />
+      <workItem from="1562977298465" duration="535000" />
+      <workItem from="1562977990192" duration="1865000" />
+      <workItem from="1563129149161" duration="1436000" />
+      <workItem from="1563130606092" duration="7103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27955000" />
+    <option name="totallyTimeSpent" value="41013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28284183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3026874" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3026874" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -187,6 +334,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/trademark_search_flask_v3$download_raw_data.coverage" NAME="download_raw_data Coverage Results" MODIFIED="1562979072849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/backend/Untitled.ipynb" />
     <entry file="file://$PROJECT_DIR$/templates/template_search.html" />
@@ -198,34 +348,11 @@
     <entry file="file://$PROJECT_DIR$/static/uploaded/fake_image_20190707-161300.png" />
     <entry file="file://$PROJECT_DIR$/static/uploaded/fake_image_20190707-174041.png" />
     <entry file="file://$PROJECT_DIR$/static/uploaded/fake_image_20190707-173557.png" />
-    <entry file="file://$PROJECT_DIR$/backend/Extract_semi_supervised_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/uploaded/fake_image_20190707-175342.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/data/query_resized/Fake-AB-1.png" />
-    <entry file="file://$PROJECT_DIR$/model_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/Feature_storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model_class.py" />
     <entry file="file://$PROJECT_DIR$/online_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -236,27 +363,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/Library_extract_semi_supervised_data.py">
+    <entry file="file://$PROJECT_DIR$/backend/download_raw_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="99" selection-start-column="99" selection-end-column="99" />
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/Library_feature_storage.py">
+    <entry file="file://$PROJECT_DIR$/backend/Library_create_resized_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="99" selection-start-column="99" selection-end-column="99" />
+        <state relative-caret-position="152">
+          <caret line="171" column="46" lean-forward="true" selection-start-line="171" selection-start-column="46" selection-end-line="171" selection-end-column="46" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/Library_create_supervised_data.py">
+    <entry file="file://$PROJECT_DIR$/backend/Create_resized_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -268,6 +398,87 @@
             <element signature="n#style#0;n#figure#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#figure#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#figure#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Library_create_supervised_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3009">
+          <caret line="211" column="25" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="25" />
+          <folding>
+            <element signature="e#100#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Create_supervised_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Image_supervised_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="59" column="92" selection-start-line="59" selection-start-column="92" selection-end-line="59" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Raw_data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Extract_semi_supervised_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Feature_storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Library_feature_storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="230" column="72" selection-start-line="230" selection-start-column="72" selection-end-line="230" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Library_image_supervised_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="220" column="4" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Library_extract_semi_supervised_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="231" column="22" selection-start-line="231" selection-start-column="22" selection-end-line="231" selection-end-column="22" />
+          <folding>
+            <element signature="e#100#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
