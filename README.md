@@ -33,6 +33,7 @@ git checkout -b $branch_name
 
 - The packages used to build the code is provided in Requirements.txt
 - Please download model from https://tinyurl.com/y2ke7stl in a models folder 
+- Please obtain permission from "Tüzkö A., Herrmann C., Manger D., Beyerer J.: “Open Set Logo Detection and Retrieval“, Proceedings of the 13th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications: VISAPP, 2018." to download the raw images.
 
 #### Installation
 To install the package above, pleae run:
