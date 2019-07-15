@@ -1,12 +1,10 @@
-import zipfile
+from zipfile import ZipFile
+import shutil
 import os
+from google_drive_downloader import GoogleDriveDownloader as gdd
 
 
-directory_raw = './data/'
-if not os.path.exists(directory_raw):
-        os.makedirs(directory_raw)
-zip_ref = zipfile.ZipFile('./data/Raw_data.zip', 'r')
-zip_ref.extractall(directory_raw)
-zip_ref.close()
-print("Raw data created")
+gdd.download_file_from_google_drive(file_id='',
+                                    dest_path='./data/Raw_data.zip',
+                                    unzip=True)
 
