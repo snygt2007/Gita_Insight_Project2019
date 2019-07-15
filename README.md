@@ -74,13 +74,13 @@ python Extract_semi_supervised_data.py
 - This is for running remote inference via a custom model
 
 # Inference
-[Select a query image and clck Submit.](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/data_inference.png)
+![Select a query image and clck Submit.](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/data_inference.png)
 
 # Test Results
 
-[Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case.png)
-[Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_result.png)
+![Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case.png)
+![Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_result.png)
 
 Changed settings
-[Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case_outline.png)
-[Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_outline.png)
+![Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case_outline.png)
+![Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_outline.png)
