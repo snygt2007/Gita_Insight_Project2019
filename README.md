@@ -27,7 +27,6 @@ git checkout -b $branch_name
 ```
 
 
-
 ## Prerequisites
 
 - The packages used to build the code is provided in Requirements.txt
@@ -39,10 +38,6 @@ To install the package above, pleae run:
 ```shell
 pip install -r requiremnts
 ```
-
-
-## Configs
-- A CNN based model is trained with transfer learning technique and the details of the configuration are in Image_supervised_model.py. 
 
 
 ## Test
@@ -62,14 +57,15 @@ python download_raw_data.py
 ## Preprocess data
 python Create_resized_data.py
 python Create_supervised_Data.py
+
+
+
+## Configs
+- A CNN based model is trained with transfer learning technique and the details of the configuration are in 
+python Image_supervised_model.py. 
+
+- Features from the existing logo catalogs are extracted and stored using
 python Extract_semi_supervised_data.py
-
-```
-```
-
-## Serve Model
-- Include instructions of how to set up a REST or RPC endpoint
-- This is for running remote inference via a custom model
 
 # Inference
 ![Select a query image and clck Submit.](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/data_inference.png)
