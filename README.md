@@ -4,6 +4,12 @@ This tool is developed for the USPTO.
 
 ## Motivation for this project format:
 - **backend** : Put all source code for production within structured directory. It contains model, data, and code
+Attribution: 
+https://live.ece.utexas.edu/publications/2011/am_asilomar_2011.pdf 
+https://github.com/ilmonteux/logohunter (Logo images)
+https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/
+
+
 - **tests** : Put all source code for testing in an easy to find location
 - **static** : Any images or content to include in the web framework
 - **templates** : Flask web page templates
