@@ -228,7 +228,7 @@ def Get_feature_score(intermediate_layer_model,mod_query_path, features_path):
         if file_features_list == '.ipynb_checkpoints':
             continue
         File_name_full = os.path.join(dir_litw_features,file_features_list)
-        file_features_record = np.load(File_name_full)
+        file_features_record = np.load(File_name_full, allow_pickle=True)
         
         df_average_score_list.append(Get_Image_Features_files(file_features_record,intermediate_layer_model,query_features))
         df_main_folder_path.append(File_name_full)

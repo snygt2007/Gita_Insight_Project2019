@@ -19,19 +19,12 @@ import time
 import argparse
 from scipy import ndimage
 from scipy import misc
-get_ipython().run_line_magic('matplotlib', 'inline')
-import readline
-readline.parse_and_bind("tab: complete")
 from scipy import ndimage
-from multiprocessing.pool import ThreadPool
 
-from urllib.request import Request, urlopen, HTTPError
-import ssl
 
 
 import os
 import numpy as np
-import argparse
 from keras.models import Model
 from PIL import Image, ImageOps,ImageFilter
 import matplotlib.image as mpimg
@@ -178,7 +171,7 @@ def Get_cleaned_supervised_folder_info(dir_litw_super):
 
     
     company_list = pd.DataFrame(columns=['true_logo','company_brand','folder_img_count','folder_path'])
-    mn = 120
+    mn = 124
     folder_logo_num=0 # y_label
     folders = ([name for name in sorted(os.listdir(dir_litw_super), key=str.casefold)]) # get all directories 
     df_list=[]
@@ -206,7 +199,7 @@ def Get_cleaned_supervised_folder_info(dir_litw_super):
     return company_list, df_image_total_brand
 
 
-def print_predict_convert(X_test,y_test):
+def print_predict_convert(X_test,y_test,model):
 
     predict_test_results = model.predict(X_test)
     
@@ -239,16 +232,4 @@ def plot_confusion_mat(y_test_1,y_predict):
 def save_model(model):
     s = pickle.dumps(model)
     dump(model, './models/filename_7022019_v1.joblib')
-    Inception_feature_list=[]
-    #model = load('filename_22.joblib') 
-    #model.summary()
-    intermediate_layer_model = Model(inputs=model.input,outputs=model.get_layer('dense_3').output)
-    #predict to get featured data
-    feature_engg_data = intermediate_layer_model.predict(X_test)
-    feature_engg_data_inter = pd.DataFrame(feature_engg_data)
-    print('feauture_engg_data shape:', feature_engg_data_inter.shape)
-    return feature_engg_data_inter
-    #features_arr = np.char.mod('%f', features)
-
-    #plot_errors(pd_y_test_1,pd_y_predict,X_orig_test)
-    #return feauture_engg_data
+    return
