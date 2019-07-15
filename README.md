@@ -45,27 +45,26 @@ pip install -r requiremnts
 ## Configs
 - A CNN based model is trained with transfer learning technique and the details of the configuration are in Image_supervised_model.py. 
 
-Execute command to goto the project directory
-%cd backend
-%python online_search.py
-%python Create_resized_data.py
-%python Create_supervised_Data.py
-%
+
 
 
 ## Test
 - Instructions for how to run all tests after the software is installed
-
+python online_search.py
 
 
 ```
 ```
 
 ## Downlaod Raw data on local machine
+Execute command to goto the project directory
+cd backend
 python download_raw_data.py 
 
 ## Preprocess data
-
+python Create_resized_data.py
+python Create_supervised_Data.py
+python Extract_semi_supervised_data.py
 
 ```
 ```
@@ -73,15 +72,15 @@ python download_raw_data.py
 ## Serve Model
 - Include instructions of how to set up a REST or RPC endpoint
 - This is for running remote inference via a custom model
-```
+
 # Inference
-![Select a query image and clck Submit.](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/data_inference.png)
+[Select a query image and clck Submit.](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/data_inference.png)
 
 # Test Results
 
-![Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case.png)
-![Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_result.png)
+[Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case.png)
+[Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_result.png)
 
 Changed settings
-![Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case_outline.png)
-![Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_outline.png)
+[Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case_outline.png)
+[Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_outline.png)
