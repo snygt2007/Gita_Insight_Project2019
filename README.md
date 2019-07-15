@@ -27,7 +27,7 @@ branch_name=dev-readme_requisites-20180905 # Name of development branch, of the 
 git checkout -b $branch_name
 ```
 
-```
+
 
 ## Requisites
 
@@ -46,10 +46,9 @@ pip install -r requiremnts
 - A CNN based model is trained with transfer learning technique and the details of the configuration are in Image_supervised_model.py. 
 
 
-
-
 ## Test
 - Instructions for how to run all tests after the software is installed
+
 python online_search.py
 
 
