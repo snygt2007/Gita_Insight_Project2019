@@ -36,8 +36,8 @@ git checkout -b $branch_name
 ## Prerequisites
 
 - The packages used to build the code is provided in Requirements.txt
-- Please download model from https://tinyurl.com/y2ke7stl in a models folder 
-- Please obtain permission from "Tüzkö A., Herrmann C., Manger D., Beyerer J.: “Open Set Logo Detection and Retrieval“, Proceedings of the 13th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications: VISAPP, 2018." to download the raw images.
+- Please download model from https://tinyurl.com/y2ke7stl in backend/models folder 
+- Please obtain permission from "Tüzkö A., Herrmann C., Manger D., Beyerer J.: “Open Set Logo Detection and Retrieval“, Proceedings of the 13th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications: VISAPP, 2018." to download the raw images and perform automated processing and training. Alternatively, you can execute the inference portions.
 
 #### Installation
 To install the package above, please run:
@@ -48,10 +48,10 @@ pip install -r requiremnts.txt
 
 ## Test
 - Instructions for how to run all tests after the software is installed
-
+(This requires the model to be downloaded in the backend/models folder)
 python online_search.py
 start localhost:5000 in your local browser (google chrome)
-
+Select .png image for a search query. Alternatively, you can select an existing image from the static/semisuper to execute the search.
 ```
 ```
 
