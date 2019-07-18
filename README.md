@@ -42,7 +42,7 @@ git checkout -b $branch_name
 #### Installation
 To install the package above, please run:
 ```shell
-pip install -r requiremnts
+pip install -r requiremnts.txt
 ```
 
 
@@ -50,7 +50,7 @@ pip install -r requiremnts
 - Instructions for how to run all tests after the software is installed
 
 python online_search.py
-
+start localhost:5000 in your local browser (google chrome)
 
 ```
 ```
