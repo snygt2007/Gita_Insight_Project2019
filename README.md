@@ -51,7 +51,7 @@ pip install -r requiremnts.txt
 (This requires the model to be downloaded in the backend/models folder)
 python online_search.py
 start localhost:5000 in your local browser (google chrome)
-Select .png image for a search query. Alternatively, you can select an existing image from the static/semisuper to execute the search.
+Select a png image for search query. Alternatively, you can select an existing image from the static/semisuper to execute the search.
 ```
 ```
 
