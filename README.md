@@ -78,3 +78,6 @@ Select a png image for search query. Alternatively, you can select an existing i
 ![Changed settings]
 ![Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case_outline.png)
 ![Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_outline.png)
+
+# Future Extension
+  The project can be extended in future by creating fake logo images using Generative Adversarial Networks (GAN).  
