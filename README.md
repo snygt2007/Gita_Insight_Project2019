@@ -4,26 +4,27 @@ Python search engine tool for detecting similar trademarks. Pipeline below for d
 ![Trademark RADAR Demo](static/readme_images/git_demo_v7.gif)
 
 ## Repository format:
-- **backend** : Contains the directories for storing pretrained models and data. The backend source code for the project in form of .py files are stored in the directory. <br>
+- **backend** : This contains the directories for storing pretrained models and data. The backend source modules for the project in form of .py files are stored in the directory. <br>
    
-  backend/models directory: contains the pretrained models. The model needs to be downlaoded from the url provided in the Prerequisites section. <br>
-  backend/data directory: contains several subdirectories for data storage. Raw_data subdirectory contains input raw logo images downloaded  using the ur provided in the Download Raw data on local machine section. <br>
+  backend/models directory: This contains the pretrained models. The model needs to be downlaoded from the url provided in the Prerequisites section. <br>
+  backend/data directory: This contains several subdirectories for data storage. Raw_data subdirectory contains input raw logo images downloaded  using the ur provided in the Download Raw data on local machine section. <br>
   Rest of the data subdirectories will be filled automatically during the execution of the program as per the instructions in Download Raw data on local machine, Preprocess data, and training sections. <br>
                 
                 
 Attribution: 
 https://live.ece.utexas.edu/publications/2011/am_asilomar_2011.pdf <br>
-https://github.com/ilmonteux/logohunter (Logo images) <br>
+https://github.com/ilmonteux/logohunter (Internet based labeled Logo images) <br>
 https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/ <br>
 
+- **static** : This contains readme_images, semisuper, uploaded subdirectories. <br>
+   static/readme_images subdirectory contains images for the README section. static/semisuper contains images that are used for inference. This subdirectly is filled automatically during the execution of the program. <br>
+   
+- **templates** : Flask web page templates <br>
 
-- **tests** : Put all source code for testing in an easy to find location
-- **static** : Any images or content to include in the web framework
-- **templates** : Flask web page templates
-- **online_search.py** : This maps the web page requests to the backend modules
+- **online_search.py** : This maps the web page requests to the backend modules <br>
 
 ## Setup
-Clone repository and update python path
+Clone repository and update python path <br>
 ```
 repo_name=Gita_Insight_Project2019 # URL of your new repository
 username=snygt2007 # Username for your personal github account
@@ -33,16 +34,15 @@ cd $Gita_Insight_Project2019
 
 ## Prerequisites
 
-- The packages used to build the code is provided in Requirements.txt
-- Please download model from https://tinyurl.com/y2ke7stl in backend/models folder 
-- Please obtain permission from "Tüzkö A., Herrmann C., Manger D., Beyerer J.: “Open Set Logo Detection and Retrieval“, Proceedings of the 13th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications: VISAPP, 2018." to download the raw images and perform automated processing and training. Alternatively, you can execute the inference portions.
+- The packages used to build the code is provided in Requirements.txt <br>
+- Please download model from https://tinyurl.com/y2ke7stl in backend/models folder <br>
+- Please obtain permission from "Tüzkö A., Herrmann C., Manger D., Beyerer J.: “Open Set Logo Detection and Retrieval“, Proceedings of the 13th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications: VISAPP, 2018." for using the input logo images used in this program. Alternatively, you can execute the inference portions. <br>
 
 #### Installation
 To install the package above, please run:
 ```shell
 pip install -r requiremnts.txt
 ```
-
 
 ## Test
 - Instructions for how to run all tests after the software is installed
@@ -62,9 +62,7 @@ python download_raw_data.py
 python Create_resized_data.py
 python Create_supervised_Data.py
 
-
-
-## Configs
+## Training and feature extraction
 - A CNN based model is trained with transfer learning technique and the details of the configuration are in 
 python Image_supervised_model.py. 
 
