@@ -4,7 +4,7 @@ import os
 from google_drive_downloader import GoogleDriveDownloader as gdd
 
 
-gdd.download_file_from_google_drive(file_id='',
+gdd.download_file_from_google_drive(file_id='10XwxP9Ob8Sz8qDxwqRNA9mhvTiYkTdwx',
                                     dest_path='./data/Raw_data.zip',
                                     unzip=True)
 
