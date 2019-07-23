@@ -1,7 +1,7 @@
 # Overview
 Python search engine tool for detecting similar trademarks. Pipeline below for detecting trademark infringement for an institution like US Patent Office
 
-![Trademark RADAR Demo](static/readme_images/git_demo_v6.gif)
+![Trademark RADAR Demo](static/readme_images/git_demo_v7.gif)
 
 ## Motivation for this project format:
 - **backend** : Put all source code for production within structured directory. It contains model, data, and code
