@@ -67,11 +67,11 @@ start localhost:5000 in your local browser (google chrome) <br>
 Select a png image for search query. Alternatively, you can select an existing image from the static/semisuper to execute the search. <br>
 ```
 ```
-# Inference
-![Select a query image and click Submit.](static/readme_images/git_inference_v1.gif)
+# Results
+![Select a query image and click Submit. n=3](static/readme_images/git_inference_v1.gif)
 
-# Inference changed settings
-![Images across business categories](static/readme_images/git_inference_changed.gif)
+# Results changed settings
+![Select a query image and click Submit. n=4](static/readme_images/git_inference_changed.gif)
 
 # Future Extension
   The project can be extended in future by creating fake logo images using Generative Adversarial Networks (GAN).  
