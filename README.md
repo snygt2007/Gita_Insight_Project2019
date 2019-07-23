@@ -3,12 +3,18 @@ Python search engine tool for detecting similar trademarks. Pipeline below for d
 
 ![Trademark RADAR Demo](static/readme_images/git_demo_v7.gif)
 
-## Motivation for this project format:
-- **backend** : Put all source code for production within structured directory. It contains model, data, and code
+## Repository format:
+- **backend** : Contains the directories for storing pretrained models and data. The backend source code for the project in form of .py files are stored in the directory. <br>
+   
+  backend/models directory: contains the pretrained models. The model needs to be downlaoded from the url provided in the Prerequisites section. <br>
+  backend/data directory: contains several subdirectories for data storage. Raw_data subdirectory contains input raw logo images downloaded  using the ur provided in the Download Raw data on local machine section. <br>
+  Rest of the data subdirectories will be filled automatically during the execution of the program as per the instructions in Download Raw data on local machine, Preprocess data, and training sections. <br>
+                
+                
 Attribution: 
-https://live.ece.utexas.edu/publications/2011/am_asilomar_2011.pdf 
-https://github.com/ilmonteux/logohunter (Logo images)
-https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/
+https://live.ece.utexas.edu/publications/2011/am_asilomar_2011.pdf <br>
+https://github.com/ilmonteux/logohunter (Logo images) <br>
+https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/ <br>
 
 
 - **tests** : Put all source code for testing in an easy to find location
@@ -21,18 +27,9 @@ Clone repository and update python path
 ```
 repo_name=Gita_Insight_Project2019 # URL of your new repository
 username=snygt2007 # Username for your personal github account
-git clone https://github.com/$username/$repo_name
-cd $repo_name
-echo "export $repo_name=${PWD}" >> ~/.bash_profile
-echo "export PYTHONPATH=$repo_name/src:${PYTHONPATH}" >> ~/.bash_profile
-source ~/.bash_profile
+git clone https://github.com/snygt2007/Gita_Insight_Project2019.git
+cd $Gita_Insight_Project2019
 ```
-Create new development branch and switch onto it
-```
-branch_name=dev-readme_requisites-20180905 # Name of development branch, of the form 'dev-feature_name-date_of_creation'}}
-git checkout -b $branch_name
-```
-
 
 ## Prerequisites
 
