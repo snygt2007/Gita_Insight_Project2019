@@ -68,16 +68,10 @@ Select a png image for search query. Alternatively, you can select an existing i
 ```
 ```
 # Inference
-![Select a query image and click Submit.](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/data_inference.png)
-
-# Test Results
-
-![Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case.png)
-![Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_result.png)
+![Select a query image and click Submit.](static/readme_images/git_inference.gif)
 
 ![Changed settings]
-![Images across business categories](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/business_case_outline.png)
-![Testing image](https://github.com/snygt2007/Gita_Insight_Project2019/blob/master/Readme_Images/testing_outline.png)
+![Images across business categories](static/readme_images/git_inference_changed.gif)
 
 # Future Extension
   The project can be extended in future by creating fake logo images using Generative Adversarial Networks (GAN).  
