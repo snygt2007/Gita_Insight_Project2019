@@ -2,7 +2,7 @@
 Python search engine tool for detecting similar trademarks. Pipeline below for detecting trademark infringement for an institution like US Patent Office
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/1j2eTQr9YryS2hVs1hlSctgcX7d8840FXgcM0JZ1wk04/edit?usp=sharing"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT8xAmdVFkK4LYjXrXfaOJ4KzfoT08-Irg7Mm9upUupnkofnHAiYRhTG7dT5Z59x_ixnsLz-WXXKZD3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 ## Motivation for this project format:
