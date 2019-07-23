@@ -1,0 +1,1 @@
+This subdirectory contains test outcome of the tests conducted to evaluate the performance of the search engine tool.
