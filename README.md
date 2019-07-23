@@ -1,6 +1,9 @@
-# Insight_Project_Framework
-Framework followed for the Trademark RADAR search engine for trademark image similarity detection.
-This tool is developed for the USPTO.
+# Overview
+Python search engine tool for detecting similar trademarks. Pipeline below for detecting trademark infringement for an institution like US Patent Office
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/1j2eTQr9YryS2hVs1hlSctgcX7d8840FXgcM0JZ1wk04/edit?usp=sharing"></iframe>
+</figure>
 
 ## Motivation for this project format:
 - **backend** : Put all source code for production within structured directory. It contains model, data, and code
