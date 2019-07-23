@@ -70,7 +70,7 @@ Select a png image for search query. Alternatively, you can select an existing i
 # Inference
 ![Select a query image and click Submit.](static/readme_images/git_inference_v1.gif)
 
-![Changed settings]
+# Inference changed settings
 ![Images across business categories](static/readme_images/git_inference_changed.gif)
 
 # Future Extension
