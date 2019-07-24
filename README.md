@@ -47,7 +47,7 @@ conda activate yourvirtualenvname<br>
 
 #### Installation
 To install the package above, please run:<br>
-pip install -r requiremnts.txt
+pip install -r requirements.txt
 
 ## Download Raw data on local machine
 Execute command to goto the project directory <br>
@@ -74,7 +74,7 @@ python Extract_semi_supervised_data.py <br>
 python online_search.py <br>
 start localhost:5000 in your local browser (google chrome) <br>
 Select a png image for search query. Alternatively, you can select an existing image from the static/semisuper to execute the search. <br>
-Troubleshooting- you may need to install the following before executing the online_search.py
+Troubleshooting- you may need to install the following before executing the online_search.py <br>
 pip install werkzeug==0.15.4 <br>
 python online_search.py <br>
 ```
