@@ -28,15 +28,15 @@ https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-loca
 Clone repository and change the directory to the project directory<br>
 Create virtual environment in conda <br>
 ```shell
-repo_name=Gita_Insight_Project2019 # URL of your new repository<br>
-username=snygt2007 # Username for your personal github account<br>
-git clone https://github.com/snygt2007/Gita_Insight_Project2019.git<br>
-cd $Gita_Insight_Project2019<br>
-conda -V<br>
-conda search "^python$"<br>
-conda create -n yourvirtualenvname python=versionnumber anaconda<br>
-Proceed ([y]/n)? y<br>
-conda activate yourvirtualenvname<br>
+repo_name=Gita_Insight_Project2019 # URL of your new repository
+username=snygt2007 # Username for your personal github account
+git clone https://github.com/snygt2007/Gita_Insight_Project2019.git
+cd $Gita_Insight_Project2019
+conda -V
+conda search "^python$"
+conda create -n yourvirtualenvname python=versionnumber anaconda
+Proceed ([y]/n)? y
+conda activate yourvirtualenvname
 ```
 
 ## Prerequisites
