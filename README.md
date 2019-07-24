@@ -25,13 +25,18 @@ https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-loca
 - **online_search.py** : This maps the web page requests to the backend modules <br>
 
 ## Setup
-Create virtual environment in conda <br>
 Clone repository and change the directory to the project directory<br>
+Create virtual environment in conda <br>
 ```shell
-repo_name=Gita_Insight_Project2019 # URL of your new repository
-username=snygt2007 # Username for your personal github account
-git clone https://github.com/snygt2007/Gita_Insight_Project2019.git
-cd $Gita_Insight_Project2019
+repo_name=Gita_Insight_Project2019 # URL of your new repository<br>
+username=snygt2007 # Username for your personal github account<br>
+git clone https://github.com/snygt2007/Gita_Insight_Project2019.git<br>
+cd $Gita_Insight_Project2019<br>
+conda -V<br>
+conda search "^python$"<br>
+conda create -n yourvirtualenvname python=versionnumber anaconda<br>
+Proceed ([y]/n)? y<br>
+conda activate yourvirtualenvname<br>
 ```
 
 ## Prerequisites
@@ -51,12 +56,15 @@ python download_raw_data.py <br>
 
 ## Preprocess data
 python Create_resized_data.py <br>
-python Create_supervised_Data.py <br>
+Below step is optional for inference but mandatory for training.<br>
+python Create_supervised_Data.py<br>
 
 ## Training and feature extraction
 - A CNN based model is trained with transfer learning technique and the details of the configuration are in <br>
+Below step is optional for inference but mandatory for training.<br>
 python Image_supervised_model.py. <br>
 
+This is a mandatory step to test inference on large set of data.
 - Features from the existing logo catalogs are extracted and stored using: <br>
 python Extract_semi_supervised_data.py <br>
 
@@ -66,6 +74,9 @@ python Extract_semi_supervised_data.py <br>
 python online_search.py <br>
 start localhost:5000 in your local browser (google chrome) <br>
 Select a png image for search query. Alternatively, you can select an existing image from the static/semisuper to execute the search. <br>
+Troubleshooting- you may need to install the following before executing the online_search.py
+pip install werkzeug==0.15.4 <br>
+python online_search.py <br>
 ```
 ```
 # Results
