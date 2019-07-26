@@ -42,12 +42,19 @@ conda activate yourvirtualenvname
 ## Prerequisites
 
 - The packages used to build the code is provided in Requirements.txt <br>
-- Please download model from https://tinyurl.com/y2ke7stl in backend/models folder <br>
 - Please obtain permission from "Tüzkö A., Herrmann C., Manger D., Beyerer J.: “Open Set Logo Detection and Retrieval“, Proceedings of the 13th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications: VISAPP, 2018." for using the input logo images used in this program. Alternatively, you can execute the inference portions. <br>
 
 #### Installation
 To install the package above, please run:<br>
 pip install -r requirements.txt
+
+## Download pretrained model
+- A pretrained model is downloaded in backend/models folder by using following commands from the program directory: <br>
+```
+  cd backend <br>
+  python download_models.py <br>  
+ ```
+Alternatively, it can be downloaded from https://tinyurl.com/y2ke7stl in backend/models folder <br>
 
 ## Download Raw data on local machine
 Execute command to goto the project directory <br>
