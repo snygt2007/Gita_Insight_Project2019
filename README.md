@@ -4,9 +4,9 @@ Python search engine tool for detecting similar trademarks. Pipeline below for d
 ![Trademark RADAR Demo](static/readme_images/git_demo_v7.gif)
 
 ## Repository format:
-- **backend** : This contains the directories for storing pretrained models,data, and results. The backend source modules for the project in form of .py files are stored in the directory. <br>
+- **backend** : This contains the directories for storing pretrained models, data, and results. The backend source modules for the project in form of .py files are stored in the directory. <br>
    
-  backend/models directory: This contains the pretrained models. The model needs to be downlaoded from the url provided in the "Prerequisites" section. <br>
+  backend/models directory: This contains the pretrained models. The model needs to be downloaded from the url provided in the "Prerequisites" section. <br>
   backend/data directory: This contains several subdirectories for data storage. Raw_data subdirectory contains input raw logo images downloaded using the url provided in the "Download Raw data on local machine" section. <br>
   backend/data/tests contains test results to evaluate the performance of the search engine. <br>
   Rest of the data subdirectories will be filled automatically during the execution of the program as per the instructions in "Download Raw data on local machine", "Preprocess data", and "Training and feature extraction" sections. <br>
@@ -51,8 +51,8 @@ pip install -r requirements.txt
 ## Download pretrained model
 - A pretrained model is downloaded in backend/models folder by using following commands from the program directory: <br>
 ```
-  cd backend <br>
-  python download_models.py <br>  
+  cd backend
+  python download_models.py 
  ```
 Alternatively, it can be downloaded from https://tinyurl.com/y2ke7stl in backend/models folder <br>
 
