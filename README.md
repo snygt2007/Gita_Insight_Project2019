@@ -79,10 +79,10 @@ pip install werkzeug==0.15.4 <br>
 python online_search.py <br>
 ```
 ```
-# Results
+# Results for interpretable search engine
 ![Select a query image and click Submit. n=3](static/readme_images/git_inference_v1.gif)
 
-# Results changed settings
+# Results changed settings for interpretable search engine
 ![Select a query image and click Submit. n=4](static/readme_images/git_inference_changed.gif)
 
 # Future Extension
