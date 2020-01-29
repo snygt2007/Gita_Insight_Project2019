@@ -16,7 +16,7 @@ def index():
 
         file = request.files['query_img']
 
-
+        # image file opened from the browser
         img = Image.open(file.stream)  # PIL image
         fake_image_dir = "./static/uploaded"
         timestr = time.strftime("%Y%m%d-%H%M%S")
@@ -29,6 +29,7 @@ def index():
         # dists = np.linalg.norm(features - query, axis=1)  # Do search
         # ids = np.argsort(dists)[:30] # Top 30 results
         # scores = [(dists[id], img_paths[id]) for id in ids]
+        # Get the similar looking trademarks with similarity score 
         scores, similar_images = search_similar_images(fake_image_dir,fake_file_name)
 
         uploaded_img_path_query = '/static/uploaded/' + fake_file_name

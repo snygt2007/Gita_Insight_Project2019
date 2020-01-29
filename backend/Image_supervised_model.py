@@ -6,7 +6,7 @@ dir_litw_super_clean=Path("./data/super_images_cleaned")
 
 
 
-
+# obtain clean data
 company_list, df_image_total_brand = Get_cleaned_supervised_folder_info(dir_litw_super_clean)
 
 
@@ -17,7 +17,7 @@ print(company_list)
 
 
 
-
+# split in train test using random shuffle
 [X_train,y_train,X_val,y_val,X_test,y_test,X_orig_train,X_orig_val,X_orig_test]=Get_train_val_test_cleaned(company_list,df_image_total_brand,dir_litw_super_clean)
 
 
@@ -27,7 +27,7 @@ print(company_list)
 print(y_test)
 
 
-
+# Training of models
 early_stopping = EarlyStopping(monitor='val_loss', patience=3, verbose=2)
 x = base_model.output
 x = GlobalAveragePooling2D()(x)

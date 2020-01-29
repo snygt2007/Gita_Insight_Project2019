@@ -1,3 +1,4 @@
+# This module prepares data for supervised learning
 from Library_create_supervised_data import *
 
 
@@ -27,7 +28,7 @@ df_logos_folder=get_folder_stats(df_logos_folder_label, tp_df_image_resized,dir_
 A=0.5
 B=0.5
 C=0.4
-
+# Customized automated filtering using statistical tools
 tp_df_excluded=test_data_exclusion_1(df_logos_folder,A,B,C, dir_litw_super_clean,dir_litw_resized)
 
 
