@@ -1,5 +1,5 @@
 # Overview
-Python search engine tool for detecting similar trademarks. Pipeline below for detecting trademark infringement for an institution like US Patent Office
+Python search engine tool for detecting similar trademarks. Pipeline below for detecting trademark infringement for an institution like US Patent Office. The project was completed in a fast-paced enviornment in ~3 weeks time alongside attending demos and meetings.
 
 ![Trademark RADAR Demo](static/readme_images/git_demo_v7.gif)
 
