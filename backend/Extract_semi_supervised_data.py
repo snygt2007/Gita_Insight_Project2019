@@ -1,13 +1,13 @@
 from Library_extract_semi_supervised_data import *
-from keras.models import load_model
 from joblib import dump, load
-import pickle
+
+
 
 # The functionality of this module is to provide automated good quality data to provide large number of classes for semi-supervised learning
 # Directory path
 dir_litw=Path("./data/Raw_data")
-dir_litw_resized =Path("./data/resized_images_details")
-dir_litw_semisuper_clean=Path("../static/semisuper")
+dir_litw_resized =Path("./data/Processed_data")
+dir_litw_semisuper_clean=Path("../static/Semisuper")
 features_dir=Path("./data/Data_Features")
 # Automated cleaning hyperparameters for semi-supervised learning
 A=1.0
