@@ -1,9 +1,5 @@
 from backend.Library_feature_storage import *
-from keras import backend as K
-from keras.models import load_model
-from joblib import dump, load
-import pickle
-import numpy as np
+
 
 
 def search_similar_images(fake_query_image_dir, file_name):
