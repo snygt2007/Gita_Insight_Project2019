@@ -2,13 +2,11 @@
 from Library_create_resized_data import *
 
 dir_litw=Path("./data/Raw_data")
-dir_litw_resized =Path("./data/resized_images_details")
+dir_litw_resized =Path("./data/Processed_data")
 
 
 
 df_logos_folder_label=Get_folder_name_labels(dir_litw)
-
-
 
 
 tp_df_image_resized=get_all_images(dir_litw,dir_litw_resized)
